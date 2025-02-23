@@ -46,8 +46,6 @@ cd your-project
 
 ### Запуск через Docker Compose
 
-Если у вас есть `docker-compose.yml`, запустите:
-
 ```sh
 docker-compose up -d
 ```
