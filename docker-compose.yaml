@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: matule
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.springboot.rule=Host(`matule.hnt8.ru`)"
+      - "traefik.http.routers.springboot.entrypoints=websecure"
+      - "traefik.http.services.springboot.loadbalancer.server.port=8080"
