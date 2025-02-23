@@ -58,7 +58,7 @@ docker stop your-app
 ---
 ## 3. Конечные точки
 - **Swagger UI**: http://localhost:8080/swagger-ui.html
-- **H2 Console**: http://localhost:8080/h2-console
+- **H2 Console** (База данных): http://localhost:8080/h2-console
   - **url:** `jdbc:h2:file:./data/testdb`
   - **username:** `sa`
   - **пароль пустой**
