@@ -39,22 +39,22 @@ cd your-project
 ### Запуск через Docker
 
 1. Соберите и запустите контейнер:
-```sh
-docker build -t your-app .
-docker run -p 8080:8080 your-app
-```
+   ```sh
+   docker build -t your-app .
+   docker run -p 8080:8080 your-app
+   ```
 
 ### Запуск через Docker Compose
 
-```sh
-docker-compose up -d
-```
+   ```sh
+   docker-compose up -d
+   ```
 
 ### Остановка контейнера
 
-```sh
-docker stop your-app
-```
+   ```sh
+   docker stop your-app
+   ```
 ---
 ## 3. Конечные точки
 - **Swagger UI**: http://localhost:8080/swagger-ui.html
