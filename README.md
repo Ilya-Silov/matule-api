@@ -39,10 +39,10 @@ cd your-project
 ### Запуск через Docker
 
 1. Соберите и запустите контейнер:
-   ```sh
-   docker build -t your-app .
-   docker run -p 8080:8080 your-app
-   ```
+```sh
+docker build -t your-app .
+docker run -p 8080:8080 your-app
+```
 
 ### Запуск через Docker Compose
 
